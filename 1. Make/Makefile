@@ -9,7 +9,7 @@ else
 	TARGET = gen calc
 endif
 
-all: build-gen build-calc
+all: build-gen build-calc run-gen run-calc
 
 run: run-gen run-calc
 
